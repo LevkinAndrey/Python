@@ -81,7 +81,7 @@ def get_achievement(dist):
     return achievement
 
 def show_message(time, steps, dist, calories, achievement):
-    message = f'''
+    message = f'''\n
 Время: {time}.
 Количество шагов за сегодня: {steps}.
 Дистанция составила {dist:.2f} км.
